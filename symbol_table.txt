@@ -1,0 +1,211 @@
+Name: a
+Type: int
+Is constant: 0
+Value = (null)
+
+Name: b
+Type: int
+Is constant: 0
+Value = 5
+
+Name: aa
+Type: string
+Is constant: 0
+Value = "1234"
+
+Name: aaa
+Type: bool
+Is constant: 0
+Value = 5
+
+Name: c
+Type: int
+Is constant: 1
+Value = 1
+
+Name: d
+Type: int
+Is constant: 0
+Values:
+[0] = (null) (int)
+[1] = (null) (int)
+[2] = (null) (int)
+[3] = (null) (int)
+[4] = (null) (int)
+[5] = (null) (int)
+[6] = (null) (int)
+[7] = (null) (int)
+[8] = (null) (int)
+[9] = (null) (int)
+
+Name: e
+Type: int
+Is constant: 0
+Values:
+[0] = 1 (int)
+[1] = 2 (int)
+[2] = 3 (int)
+[3] = (null) (int)
+[4] = (null) (int)
+
+Name: f
+Type: int
+Is constant: 1
+Values:
+[0] = 1 (int)
+[1] = 2 (int)
+[2] = (null) (int)
+[3] = (null) (int)
+[4] = (null) (int)
+[5] = (null) (int)
+[6] = (null) (int)
+[7] = (null) (int)
+[8] = (null) (int)
+[9] = (null) (int)
+
+Name: bb
+Type: string
+Is constant: 0
+Values:
+[0] = "ab" (string)
+[1] = "mareString" (string)
+[2] = "mareString2" (string)
+
+Name: g
+Type: int
+Is constant: 0
+Value = 2
+
+Name: h
+Type: int
+Is constant: 0
+Value = (null)
+
+Name: MethodlessStruct
+Type: struct
+Is constant: 0
+Member variables:
+[s1a] (int)
+[s1b] (int)
+
+Name: ObjectOriented1
+Type: struct
+Is constant: 0
+Member variables:
+[s2a] (int)
+[s2aa] (string)
+
+Name: i
+Type: int
+Is constant: 0
+Value = (null)
+
+Name: j
+Type: int
+Is constant: 0
+Value = 3
+
+Name: ObjectOriented2
+Type: struct
+Is constant: 0
+Member variables:
+[s3a] (int)
+[s3b] (int)
+[s3c] (string)
+
+Name: k
+Type: int
+Is constant: 0
+Value = 5
+
+Name: l
+Type: int
+Is constant: 1
+Values:
+[0] = 1 (int)
+[1] = 2 (int)
+[2] = 3 (int)
+
+Name: bbb
+Type: bool
+Is constant: 0
+Value = bool
+
+Name: cc
+Type: string
+Is constant: 1
+Value = "123"
+
+Name: m
+Type: int
+Is constant: 0
+Values:
+[0] = 1 (int)
+[1] = 2 (int)
+[2] = 3 (int)
+
+Name: n
+Type: int
+Is constant: 0
+Value = 0
+
+Name: vlad
+Type: ObjectOriented1
+Is constant: 0
+Values:
+[s2a] = 3 (int)
+[s2aa] = "is agree" (string)
+
+Name: nechita
+Type: MethodlessStruct
+Is constant: 0
+Values:
+[s1a] = 1 (int)
+[s1b] = 2 (int)
+
+Name: dd
+Type: string
+Is constant: 0
+Values:
+[0] = "carpa" (string)
+[1] = "calca" (string)
+[2] = "piatra" (string)
+[3] = (null) (string)
+
+Name: o
+Type: int
+Is constant: 0
+Value = 248
+
+Name: p
+Type: int
+Is constant: 1
+Value = 500
+
+Name: q
+Type: int
+Is constant: 0
+Value = 0
+
+Name: mihai
+Type: ObjectOriented1
+Is constant: 0
+Values:
+[s2a] = (null) (int)
+[s2aa] = (null) (string)
+
+Name: r
+Type: int
+Is constant: 0
+Value = 249
+
+Name: w
+Type: int
+Is constant: 0
+Value = 3
+
+Name: s
+Type: int
+Is constant: 0
+Value = 1
+

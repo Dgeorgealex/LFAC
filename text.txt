@@ -1,0 +1,141 @@
+int aa;
+int aaa = 5;
+string bb;
+bool cc = 5;
+const int constanta = 1;
+
+int vector[10];
+int mareVector[5] = {1, 2, 3};
+const int globalVector[10] = {1, 2};
+string stringVector[3] = {"ab", "mareString", "mareString2"};
+
+#
+
+int function(char salut, bool ok)
+{
+    int xxx = 2;
+    return 0;
+}
+
+char function2()
+{
+    int xxxxx = 3;
+    return 4;
+}
+#
+struct MethodlessStruct {
+    int oo;
+    int x;
+    #
+};
+
+struct ObjectOriented
+{
+    int oo;
+    string s;
+    #
+    int ooooo(int p)
+    {
+        int aaaaaaaaaaaaaaa;
+        return 0;
+    }
+
+    bool ohooho(string xxx)
+    {
+        int yyy = 3;
+        return 2;
+    }
+};
+
+struct Boss
+{
+    int a;
+    int b;
+    string c;
+    #
+    int f()
+    {
+        int xxxx = 5;
+        return 1;
+    }
+};
+
+#
+main() {
+    Eval( 5 * 2 + 5 / 5 + 3 - 1 );
+
+    TypeOf(7);
+
+    TypeOf(aa);
+
+    TypeOf("aa");
+
+    Eval( 5 * (2 + 5) / 5 + 3 - 1 );
+    const int vectorConst[3] = {1, 2, 3};
+    Eval((1+2)); 
+
+    int x=2;
+    bool a = ( 4 > 3 ) || (x < 2);
+    const string lop = "123";
+    int v[3] = {1, 2, 3};
+
+    int y = v[0] + ( x / x ) * 2 + (v[1] - v[2]) * 1;
+
+    struct ObjectOriented vlad;
+    struct Boss alex = { 1 , 2};
+
+    alex.c = "is big boss";
+
+    string strings[4] = {"Alex", "e", "frumos"};
+
+    int yyyyyyy = x * x * x + ( x * ( x - x + 1) * ( x * x ) );
+
+    const int xxxxxxxx = x + x;
+
+    // lop = "1234";
+
+    TypeOf(1+2);
+    TypeOf(a);
+    Eval(a);
+
+    Eval(1000);
+    v[1] = 3;
+    Eval(v[1]);
+    
+    TypeOf(function('a', false));
+
+    function(function2() + '3' * 'x', false);
+    
+    y = function(function2() + '3' * 'x', false);
+    
+    int vmnechita = vlad.ooooo(5);
+
+    vmnechita = 2;
+
+    int z = function('a', true);
+    Eval(100);
+    
+    while(x > 0) {
+        struct ObjectOriented u;
+        if(x < 5){
+            x = x - 1;
+        }
+        else {
+            x = x - 2;
+        }
+    }
+
+    if(x>5) {
+        for(int k=0; k<10; k = k + 1) {
+            y = x+3;
+        }
+    } else {
+        int idx = 1;
+    }
+    for(int i=0; i<10; i = i + 1) {
+        for(int j=0; j<z; j = j + 1) {
+            a = true;
+        }
+    }
+
+}

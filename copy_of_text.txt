@@ -1,0 +1,131 @@
+int a;
+int b = 5;
+string aa;
+bool aaa = 5;
+const int c = 1;
+
+int d[10];
+int e[5] = {1, 2, 3};
+const int f[10] = {1, 2};
+string bb[3] = {"ab", "mareString", "mareString2"};
+
+#
+
+int function1(char f1param1, bool f2param2)
+{
+    int g = 2;
+    return 0;
+}
+
+char function2()
+{
+    int h; 
+    return 0;
+}
+#
+
+struct MethodlessStruct {
+    int s1a;
+    int s1b;
+    #
+};
+
+struct ObjectOriented1
+{
+    int s2a;
+    string s2aa;
+    #
+    int s2function1(int param1)
+    {
+        int i;
+        return 0;
+    }
+
+    bool s2function2(string param1)
+    {
+        int j = 3;
+        return 0;
+    }
+};
+
+struct ObjectOriented2
+{
+    int s3a;
+    int s3b;
+    string s3c;
+    #
+    int s3function1()
+    {
+        int k = 5;
+        return 1;
+    }
+};
+
+#
+main() {
+
+    Eval( 5 * 2 + 5 / 5 + 3 - 1 );                                                                                      //Eval
+
+    TypeOf(7);                                                                                                          //Type
+
+    TypeOf(aa);                                                                                                         //Type
+
+    TypeOf("aa");                                                                                                       //Type
+
+    Eval( 5 * (2 + 5) / 5 + 3 - 1 );                                                                                    //Type
+
+    const int l[3] = {1, 2, 3};
+
+    Eval(bb[0]);                                                                                                        //Eval
+
+    bool bbb = ( 4 > 3 ) || ( a < 2);                                                                                      //Boolean expression
+
+    const string cc = "123";                                                                                          
+    
+    int m[3] = {1, 2, 3};
+
+    int n = m[0] + ( m[1] / m[2] ) * 2 + (m[1] - m[2]) * 1;                                                              
+
+    struct ObjectOriented1 vlad;
+
+    struct MethodlessStruct nechita = { 1 , 2 };
+
+    vlad.s2aa = "is agree";
+
+    string dd[4] = {"carpa", "calca", "piatra"};
+
+    int o = b * b * b + ( b * ( b - b + 1) * ( b * b ) );
+
+    const int p = o + o;
+
+    aa = "1234";
+
+    vlad.s2a = 3;
+
+    vlad.s2function1(3);
+    
+    TypeOf(function1('a', false));
+
+    function1(function2() + '3' * 'x', false);
+    
+    int q = function1('a', true);
+
+    while(vlad.s2a > 0) {
+        struct ObjectOriented1 mihai;
+        
+        if(o < 5){
+            int r = o - 1;
+        }
+        else {
+            o = o - 2;
+        }
+    }
+
+    if(p > 5) {
+        for(int w = 0; w < 10; w = w + 1) {
+            w = w * 3;
+        }
+    } else {
+        int s = 1;
+    }
+}

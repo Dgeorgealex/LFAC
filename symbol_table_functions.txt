@@ -1,0 +1,5 @@
+int function1   ->   char f1param1    bool f2param2    
+char function2   ->   no parameters
+int s2function1@ObjectOriented1   ->   int param1    
+bool s2function2@ObjectOriented1   ->   string param1    
+int s3function1@ObjectOriented2   ->   no parameters
